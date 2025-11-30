@@ -1,30 +1,33 @@
-# Weekly Log — Week 1 (ending 2025-11-09)
+
+
+Weekly Log — Week 1 (ending 2025-11-09)
 
 Name: Sai Surya Cherupally
-Project Title: Dataset Creation using Unitree Go1 Robot
+Project: Dataset Creation using Unitree Go1 Robot
+
+---
 
 What I Did This Week
 
-I explored how to collect data from the Unitree Go1 robot using its LiDAR and camera.
+* Explored methods to collect sensor data from the Unitree Go1 robot (LiDAR and camera).
+* Learned how to connect to the robot and fetch streaming sensor data.
+* Tested LiDAR recordings to capture surrounding geometry and validated camera image capture.
+* Began designing an interface to automate data collection workflows.
+* Investigated best practices for storing and organizing sensor data for future research use.
 
-I learned how to connect to the robot and fetch sensor data.
-
-I tested how the LiDAR records the surroundings and how camera images can be captured.
-
-I started planning an interface that can help automate data collection instead of doing it manually.
-
-I also looked at how to store the data properly so that it can be used later for different research purposes.
+---
 
 Challenges
 
-Understanding how LiDAR data is stored and converted (.pcap files).
+* Understanding LiDAR data storage and conversion (e.g., working with .pcap files).
+* Synchronizing LiDAR and camera capture so both sensors record simultaneously.
 
-Figuring out how to capture camera and LiDAR data at the same time.
+---
 
 Plan for Next Week
 
-Write a simple script to collect LiDAR and camera data automatically.
+* Implement a simple script to simultaneously collect LiDAR and camera data.
+* Ensure sensor timestamps are recorded for synchronization.
+* Collect a small sample dataset to validate end-to-end capture and storage.
 
-Try to make both sensors record at the same time.
-
-Collect a small sample dataset for testing.
+---
